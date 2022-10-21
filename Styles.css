@@ -1,0 +1,215 @@
+
+body {
+    background: white;  
+
+    }
+
+p {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.encabezado {
+    padding: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.logo img {
+    float: left;
+    width: 15vw;
+    height: 10vh;
+
+}
+
+.menu ul {
+    float: right;
+    list-style-type: none;
+    margin: 0%;
+    padding: 5px;
+    overflow: hidden;
+    
+}
+
+.menu li {
+    font-family: 'Inter Tight', sans-serif;
+    float: right;
+    
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #b48216;
+    font-weight: 900;
+    
+}
+
+.menu li a:hover {
+    background-color: #b48216;
+    color: black;
+    border-radius: .1rem;
+    min-width: 10px;
+}
+
+.slide img {
+    margin-top: 1rem;
+    width: 100%;
+    height: 47rem;
+    border-radius: 5rem;
+    
+}
+
+/*sombra para el contenedor que contiene los servicios y los videos*/ 
+.container {
+    max-width: 110rem;
+	margin: 1rem;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+	-moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+	box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+	padding: 2rem;
+    border-radius: 5rem;
+    min-width: 10rem;
+    
+}
+
+.servicios {
+    max-width: 110rem;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   min-width: 10rem;
+}
+
+.servicios a {
+    max-width: 110rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #b48216;
+    font-family: 'Inter Tight', sans-serif;
+    min-width: 10rem;
+}
+
+.servicios a:hover {
+    max-width: 110rem;
+    background-color: #b48216;
+    color: black;
+    border-radius: .1rem;
+    padding: 14px 16px;
+    min-width: 10rem;
+  
+}
+
+.servicios p {
+    max-width: 110rem;
+    padding: 14px 16px;
+    min-width: 10rem;
+}
+
+.servicio-1 img {
+    max-width: 30rem;
+    margin-left: 1rem;
+     width: 150px;
+     min-width: 10rem;
+}
+
+.servicio-2 img {
+    max-width: 30rem;
+    margin-left: 1rem;
+    width: 150px;
+    min-width: 10rem;
+}
+
+.servicio-3 img {
+    max-width: 30rem;
+    margin-left: 1rem;
+    width: 115px;
+    min-width: 10rem;
+}
+/*videos en general*/
+.videos {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+    min-width: 10rem;
+    
+}
+
+
+h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+@media(max-width:1200px){
+    .slide{
+        width: 40%;
+    }
+}
+@media(min-width:840px){
+    .slide{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:1200px){
+    .encabezado{
+        width: 40%;
+    }
+}
+
+@media(min-width:840px){
+    .encabezado{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:1200px){
+    .container{
+        width: 40%;
+    }
+}
+
+@media(max-width:840px){
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:1200px){
+    .videos{
+        width: 40%;
+    }
+}
+
+@media(max-width:840px){
+    .videos{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
